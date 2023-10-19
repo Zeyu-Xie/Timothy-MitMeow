@@ -1,2 +1,2 @@
-# Lavender-MitMeow
+# Timothy-MitMeow
 Petite Desktop Pet MitMeow
