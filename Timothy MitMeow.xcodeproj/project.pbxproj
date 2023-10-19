@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3821902AE0FC82008912CF /* Timothy_MitMeowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38218F2AE0FC82008912CF /* Timothy_MitMeowApp.swift */; };
+		FF3821922AE0FC82008912CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3821912AE0FC82008912CF /* ContentView.swift */; };
+		FF3821942AE0FC83008912CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3821932AE0FC83008912CF /* Assets.xcassets */; };
+		FF3821972AE0FC83008912CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3821962AE0FC83008912CF /* Preview Assets.xcassets */; };
+		FF3821A22AE0FC83008912CF /* Timothy_MitMeowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3821A12AE0FC83008912CF /* Timothy_MitMeowTests.swift */; };
+		FF3821AC2AE0FC83008912CF /* Timothy_MitMeowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3821AB2AE0FC83008912CF /* Timothy_MitMeowUITests.swift */; };
+		FF3821AE2AE0FC83008912CF /* Timothy_MitMeowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3821AD2AE0FC83008912CF /* Timothy_MitMeowUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF38219E2AE0FC83008912CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3821842AE0FC82008912CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF38218B2AE0FC82008912CF;
+			remoteInfo = "Timothy MitMeow";
+		};
+		FF3821A82AE0FC83008912CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3821842AE0FC82008912CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF38218B2AE0FC82008912CF;
+			remoteInfo = "Timothy MitMeow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF38218C2AE0FC82008912CF /* Timothy MitMeow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timothy MitMeow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF38218F2AE0FC82008912CF /* Timothy_MitMeowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timothy_MitMeowApp.swift; sourceTree = "<group>"; };
+		FF3821912AE0FC82008912CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FF3821932AE0FC83008912CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3821962AE0FC83008912CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF3821982AE0FC83008912CF /* Timothy_MitMeow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Timothy_MitMeow.entitlements; sourceTree = "<group>"; };
+		FF38219D2AE0FC83008912CF /* Timothy MitMeowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timothy MitMeowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3821A12AE0FC83008912CF /* Timothy_MitMeowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timothy_MitMeowTests.swift; sourceTree = "<group>"; };
+		FF3821A72AE0FC83008912CF /* Timothy MitMeowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timothy MitMeowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3821AB2AE0FC83008912CF /* Timothy_MitMeowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timothy_MitMeowUITests.swift; sourceTree = "<group>"; };
+		FF3821AD2AE0FC83008912CF /* Timothy_MitMeowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timothy_MitMeowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3821892AE0FC82008912CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF38219A2AE0FC83008912CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3821A42AE0FC83008912CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3821832AE0FC82008912CF = {
+			isa = PBXGroup;
+			children = (
+				FF38218E2AE0FC82008912CF /* Timothy MitMeow */,
+				FF3821A02AE0FC83008912CF /* Timothy MitMeowTests */,
+				FF3821AA2AE0FC83008912CF /* Timothy MitMeowUITests */,
+				FF38218D2AE0FC82008912CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF38218D2AE0FC82008912CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF38218C2AE0FC82008912CF /* Timothy MitMeow.app */,
+				FF38219D2AE0FC83008912CF /* Timothy MitMeowTests.xctest */,
+				FF3821A72AE0FC83008912CF /* Timothy MitMeowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF38218E2AE0FC82008912CF /* Timothy MitMeow */ = {
+			isa = PBXGroup;
+			children = (
+				FF38218F2AE0FC82008912CF /* Timothy_MitMeowApp.swift */,
+				FF3821912AE0FC82008912CF /* ContentView.swift */,
+				FF3821932AE0FC83008912CF /* Assets.xcassets */,
+				FF3821982AE0FC83008912CF /* Timothy_MitMeow.entitlements */,
+				FF3821952AE0FC83008912CF /* Preview Content */,
+			);
+			path = "Timothy MitMeow";
+			sourceTree = "<group>";
+		};
+		FF3821952AE0FC83008912CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF3821962AE0FC83008912CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF3821A02AE0FC83008912CF /* Timothy MitMeowTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3821A12AE0FC83008912CF /* Timothy_MitMeowTests.swift */,
+			);
+			path = "Timothy MitMeowTests";
+			sourceTree = "<group>";
+		};
+		FF3821AA2AE0FC83008912CF /* Timothy MitMeowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF3821AB2AE0FC83008912CF /* Timothy_MitMeowUITests.swift */,
+				FF3821AD2AE0FC83008912CF /* Timothy_MitMeowUITestsLaunchTests.swift */,
+			);
+			path = "Timothy MitMeowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF38218B2AE0FC82008912CF /* Timothy MitMeow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3821B12AE0FC83008912CF /* Build configuration list for PBXNativeTarget "Timothy MitMeow" */;
+			buildPhases = (
+				FF3821882AE0FC82008912CF /* Sources */,
+				FF3821892AE0FC82008912CF /* Frameworks */,
+				FF38218A2AE0FC82008912CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timothy MitMeow";
+			productName = "Timothy MitMeow";
+			productReference = FF38218C2AE0FC82008912CF /* Timothy MitMeow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF38219C2AE0FC83008912CF /* Timothy MitMeowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3821B42AE0FC83008912CF /* Build configuration list for PBXNativeTarget "Timothy MitMeowTests" */;
+			buildPhases = (
+				FF3821992AE0FC83008912CF /* Sources */,
+				FF38219A2AE0FC83008912CF /* Frameworks */,
+				FF38219B2AE0FC83008912CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF38219F2AE0FC83008912CF /* PBXTargetDependency */,
+			);
+			name = "Timothy MitMeowTests";
+			productName = "Timothy MitMeowTests";
+			productReference = FF38219D2AE0FC83008912CF /* Timothy MitMeowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF3821A62AE0FC83008912CF /* Timothy MitMeowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3821B72AE0FC83008912CF /* Build configuration list for PBXNativeTarget "Timothy MitMeowUITests" */;
+			buildPhases = (
+				FF3821A32AE0FC83008912CF /* Sources */,
+				FF3821A42AE0FC83008912CF /* Frameworks */,
+				FF3821A52AE0FC83008912CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF3821A92AE0FC83008912CF /* PBXTargetDependency */,
+			);
+			name = "Timothy MitMeowUITests";
+			productName = "Timothy MitMeowUITests";
+			productReference = FF3821A72AE0FC83008912CF /* Timothy MitMeowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3821842AE0FC82008912CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FF38218B2AE0FC82008912CF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FF38219C2AE0FC83008912CF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FF38218B2AE0FC82008912CF;
+					};
+					FF3821A62AE0FC83008912CF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FF38218B2AE0FC82008912CF;
+					};
+				};
+			};
+			buildConfigurationList = FF3821872AE0FC82008912CF /* Build configuration list for PBXProject "Timothy MitMeow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3821832AE0FC82008912CF;
+			productRefGroup = FF38218D2AE0FC82008912CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF38218B2AE0FC82008912CF /* Timothy MitMeow */,
+				FF38219C2AE0FC83008912CF /* Timothy MitMeowTests */,
+				FF3821A62AE0FC83008912CF /* Timothy MitMeowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF38218A2AE0FC82008912CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3821972AE0FC83008912CF /* Preview Assets.xcassets in Resources */,
+				FF3821942AE0FC83008912CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF38219B2AE0FC83008912CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3821A52AE0FC83008912CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3821882AE0FC82008912CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3821922AE0FC82008912CF /* ContentView.swift in Sources */,
+				FF3821902AE0FC82008912CF /* Timothy_MitMeowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3821992AE0FC83008912CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3821A22AE0FC83008912CF /* Timothy_MitMeowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF3821A32AE0FC83008912CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3821AE2AE0FC83008912CF /* Timothy_MitMeowUITestsLaunchTests.swift in Sources */,
+				FF3821AC2AE0FC83008912CF /* Timothy_MitMeowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF38219F2AE0FC83008912CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF38218B2AE0FC82008912CF /* Timothy MitMeow */;
+			targetProxy = FF38219E2AE0FC83008912CF /* PBXContainerItemProxy */;
+		};
+		FF3821A92AE0FC83008912CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF38218B2AE0FC82008912CF /* Timothy MitMeow */;
+			targetProxy = FF3821A82AE0FC83008912CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF3821AF2AE0FC83008912CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF3821B02AE0FC83008912CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FF3821B22AE0FC83008912CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Timothy MitMeow/Timothy_MitMeow.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timothy MitMeow/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Timothy-MitMeow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FF3821B32AE0FC83008912CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Timothy MitMeow/Timothy_MitMeow.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Timothy MitMeow/Preview Content\"";
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Timothy-MitMeow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FF3821B52AE0FC83008912CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Timothy-MitMeowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timothy MitMeow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timothy MitMeow";
+			};
+			name = Debug;
+		};
+		FF3821B62AE0FC83008912CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Timothy-MitMeowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timothy MitMeow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Timothy MitMeow";
+			};
+			name = Release;
+		};
+		FF3821B82AE0FC83008912CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Timothy-MitMeowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Timothy MitMeow";
+			};
+			name = Debug;
+		};
+		FF3821B92AE0FC83008912CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZR59599HJV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zeyu-Xie.Timothy-MitMeowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Timothy MitMeow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3821872AE0FC82008912CF /* Build configuration list for PBXProject "Timothy MitMeow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3821AF2AE0FC83008912CF /* Debug */,
+				FF3821B02AE0FC83008912CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3821B12AE0FC83008912CF /* Build configuration list for PBXNativeTarget "Timothy MitMeow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3821B22AE0FC83008912CF /* Debug */,
+				FF3821B32AE0FC83008912CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3821B42AE0FC83008912CF /* Build configuration list for PBXNativeTarget "Timothy MitMeowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3821B52AE0FC83008912CF /* Debug */,
+				FF3821B62AE0FC83008912CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3821B72AE0FC83008912CF /* Build configuration list for PBXNativeTarget "Timothy MitMeowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3821B82AE0FC83008912CF /* Debug */,
+				FF3821B92AE0FC83008912CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3821842AE0FC82008912CF /* Project object */;
+}
